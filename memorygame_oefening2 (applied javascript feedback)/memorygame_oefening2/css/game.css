@@ -1,0 +1,67 @@
+#field {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  width: 100%;
+  margin: 0 auto;
+}
+#selecter {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px 4px;
+  width: 100%;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+#field>div {
+padding: 5px ;
+position: relative;
+}
+
+#field img {
+  width: 100px;
+}
+
+.board4 {
+  flex: 25%;
+  max-width: 25%;
+  box-sizing: border-box;
+}
+
+.board5 {
+  flex: 20%;
+  max-width: 20%;
+  box-sizing: border-box;
+}
+
+.board6 {
+  flex: 16.66666%;
+  max-width: 16.66666%;
+  box-sizing: border-box;
+}
+.covered, .uncovered {
+  position: absolute
+  ;
+  top: 5px;
+  left: 5px;
+  width: calc(100% - 10px);
+  height: calc(100% - 10px);
+}
+.uncovered {
+  display: none;
+}
+
+
+img {
+  margin: 0px;
+  display: block;
+}
+
+@media screen and (min-width: 768px) {
+  #field {
+    max-width: 768px;
+  }
+
+}
+
